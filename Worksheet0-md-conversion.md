@@ -1,10 +1,10 @@
 Worksheet 0: Building Blocks
 ============================
 
-**Date: ** March 3, 2024
+**Date:** March 3, 2024
+
 **Subject:** COMP10001
 
-Week 1
 
 *   Control flow:
     
