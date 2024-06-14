@@ -1,19 +1,8 @@
 Worksheet 0: Building Blocks
 ============================
 
-Date: @March 3, 2024
-
-Finished?
-
-Subject
-
-[![](https://www.notion.so/icons/bookmark_red.svg)COMP10001](https://www.notion.so/COMP10001-9b459138d39749a4926cfa6e4e260d8d?pvs=21)
-
-Type of Class
-
-Assignment/Worksheet
-
-Week
+**Date: ** March 3, 2024
+**Subject:** COMP10001
 
 Week 1
 
