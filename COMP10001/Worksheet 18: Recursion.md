@@ -54,7 +54,7 @@ Introduction to Recursion
 
 *   A recursive function with two recursive calls is like a tree (yes, again this is the technical term). Each function call recurses on the left half of the tree and then on the right half of the tree. If there's only one element, it will process that element. You can see the order of this below.
     
-    [![](Worksheet%2018%20Recursion%20c516a1b0ec4942c78166750d12372793/Untitled%201.png)](Worksheet%2018%20Recursion%20c516a1b0ec4942c78166750d12372793/Untitled%201.png)
+    [![](https://www.cs.toronto.edu/~david/course-notes/csc110-111/18-sorting/images/fig-mergesort-recursion-tree-inputs.png)]
     
 
 *   Which one is better? The stick looks shorter than the tree but for larger inputs, the tree becomes more and more efficient. In fact, trees are an important concept in Algorithms, and one you're sure to learn plenty about if you continue your studies in Computing.
