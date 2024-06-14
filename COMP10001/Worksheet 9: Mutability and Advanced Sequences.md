@@ -1,19 +1,9 @@
 Worksheet 9: Mutability and Advanced Sequences
 ==============================================
 
-Date
+**Date:** March 13, 2024
 
-@March 20, 2024
-
-Finished?
-
-Subject
-
-[![](https://www.notion.so/icons/bookmark_red.svg)COMP10001](https://www.notion.so/COMP10001-9b459138d39749a4926cfa6e4e260d8d?pvs=21)
-
-Type of Class
-
-Assignment/Worksheet
+**Subject:** COMP10001
 
 Mutability:
 -----------
@@ -36,7 +26,7 @@ Mutability:
 *   It is important to understand that the assignment operator (=) points a variable to a particular object:
     *   If we point two variables to the same mutable object and change one of them, we will see the change reflected in the other one too since they are both pointing to the same object!
 
->[!Tip}
+>[!Tip]
 >**The** **`is`** **operator:**
 > *   You can use the `is` operator to see whether two variables point to the same object. Unlike `==`, which will return True if the two objects are equal in value, `is` checks that the objects have an identical id as well.
 >```python
