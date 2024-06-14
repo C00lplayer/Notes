@@ -1,19 +1,9 @@
 Worksheet 2: Numerical Expressions
 ==================================
 
-Date
+**Date:** March 3, 2024
 
-@March 3, 2024
-
-Finished?
-
-Subject
-
-[![](https://www.notion.so/icons/bookmark_red.svg)COMP10001](https://www.notion.so/COMP10001-9b459138d39749a4926cfa6e4e260d8d?pvs=21)
-
-Type of Class
-
-Assignment/Worksheet
+**Subject:** COMP10001
 
 Expressions and Data Types:
 ---------------------------
@@ -29,11 +19,10 @@ Expressions and Data Types:
     *   `9 + 11` and `3.0 / 4` are expressions.
     
     *   `input("Enter a number: ")` is also an expression as it will evaluate to the string input by the user.
-
+    ```python
     x = 25          # a statement
     x = x + 10      # an expression
-    
-    print(x)
+    ```
 
 *   All expressions are statements, but not all statements are expressions.
     
@@ -64,56 +53,31 @@ Expressions and Data Types:
 
 *   Data types include:
 
-**Type**
-
-**Description**
-
-`int`
-
-For whole numbers eg: `-3`, `-5`, or `10`
-
-`float`
-
-For real numbers eg: `-3.0`, `0.5`, or `3.14159`
-
-`bool`
-
-The Boolean type. For storing `True` and `False` (only those two values; Booleans allow for no grey areas!).
-
-`str` (= "string")
-
-For chunks of text, e.g.: `"Hello, I study Python"`
-
-`tuple`
-
-For combinations of objects, e.g.: `(1, 2, 3)` or `(1.0, "hello", "frank")`
-
-`list`
-
-A more powerful way of storing lists of objects, e.g. `[1, 3, 4]` or `[1.0, "hello", "frank"]`
-
-`dict`
-
-We will see this later ... maybe you can guess what it does, e.g. `{"bob": 34, "frankenstein": 203}`
+| **Type** | **Description**|
+|----------|----------------|
+|`int`     |For whole numbers eg: `-3`, `-5`, or `10`|
+|`float`|For real numbers eg: `-3.0`, `0.5`, or `3.14159`|
+|`bool`|The Boolean type. For storing `True` and `False` (only those two values; Booleans allow for no grey areas!).|
+|`str` (= "string")|For chunks of text, e.g.: `"Hello, I study Python"`|
+|`tuple`|For combinations of objects, e.g.: `(1, 2, 3)` or `(1.0, "hello", "frank")`|
+|`list`|A more powerful way of storing lists of objects, e.g. `[1, 3, 4]` or `[1.0, "hello", "frank"]`|
+|`dict`|A way to store a **value** with a **key**,  `{"bob": 34, "frankenstein": 203}`|
 
 *   Note that you can check the data type of any object with the `type` function. e.g:
-
+```python
     print(type("Can you make this print:"))
-
-which outputs: `<class 'str'>` which shows the data type being ‘str’ also known as string
+```
+* Which outputs: `<class 'str'>` which shows the data type being ‘str’ also known as string
 
 Integers and Floats:
 --------------------
 
 *   The data type `int` is a type for all positive and negative whole numbers (yes, and zero; i.e. all integers), such as ­`1` or `-1523`
 
-💡
-
-Python allows for underscores to be used inside numbers, acting like commas to make them easier to read.
-
-The huge number `300000000000000000` in the print statement above might be hard to interpret, but we can instead write it as `300_000_000_000_000_000` which hopefully makes it a _little_ more clear to see that it's 300 quadrillion!
-
-This is purely a visual aid for numbers which you write into python programs: when they are printed out, they don't have the underscores. The following two lines of code are equivalent:
+> [!TIP]
+> Python allows for underscores to be used inside numbers, acting like commas to make them easier to read.
+> The huge number `300000000000000000` in the print statement above might be hard to interpret, but we can instead write it as `300_000_000_000_000_000` which hopefully makes it a _little_ more clear to see that it's 300 quadrillion!
+> This is purely a visual aid for numbers which you write into python programs: when they are printed out, they don't have the underscores. The following two lines of code are equivalent:
 
 *   The type `int` is distinct from the type `float`, which represents numbers with a decimal component such as ­`9.23`. These number are called **floating point numbers** and can approximate fractions
 
@@ -129,29 +93,13 @@ This is purely a visual aid for numbers which you write into python programs: wh
 
 *   This can be summarised in a table:
 
-**Expression**
-
-**Result**
-
-`int`(`*`,`+`,`-`)`int`
-
-`int`
-
-`int/int`
-
-`float`
-
-`float`(`*`,`+`,`-`,`/`)`float`
-
-`float`
-
-`float`(`*`,`+`,`-`,`/`)`int`
-
-`float`
-
-`int`(`*`,`+`,-,`/`)`float`
-
-`float`
+|**Expression**|**Result**|
+|--------------|----------|
+|`int` (`*`,`+`,`-`)  `int`|`int`|
+|`int` `/` `int`|`float`|
+|`float` (`*`,`+`,`-`,`/`) `float`|`float`|
+|`float` (`*`,`+`,`-`,`/`) `int`|`float`|
+|`int` (`*`,`+`,-,`/`) `float`|`float`|
 
 *   A **rounding error** is the discrepancy between the approximated value and its exact value.
 
@@ -195,35 +143,34 @@ Type Conversions and Inputs:
 
 *   However if you try to convert between data types when the conversion is not possible it fails
     *   Like the example below you cannot convert between the string type to integer type as the string contains the decimal point which is not a digit:
-
+```python
     print(int("32.7"))
-
+```
 *   The `float()` function returns the corresponding `float` value for the input:
-
+```python
     print(float(32))
-
+```
 *   `float()` is able to convert any string representation of an integer or floating point number into a `float`, including numbers written with scientific notation. This is an improvement over `int()` which could only convert strings containing digits.
     *   The following will all be successful in converting to float type:
-
+```python
     print(float("32.7"))
     print(float("32e4"))
     print(float("32"))
-
+```
 *   The function `str()` converts values to the type `str` (a string).
 
-💡
-
-To convert to a particular type, you just have to use the function with the same name as that type. This is consistent with all types, from `int()` all the way to `dict()` and `set()`!
+> [!TIP]
+> To convert to a particular type, you just have to use the function with the same name as that type. This is consistent with all types, from `int()` all the way to `dict()` and `set()`
 
 *   `input()` always returns a string, so if your program requires a string as input, there is nothing more to do
 
 *   If the input is a number, on the other hand, Python will see this as a string consisting of digits
 
 *   We need a function that converts a string where each character is a digit, into a number. If your program expects integer values, you simply use the function `int()`:
-
+```python
     num = int(input('Enter a number to double: '))
     print('2 x', num, '=', 2 * num)
-
+```
 *   If your program expects floating point numbers, you would cast to a  `float`  using  `float()` instead.
 
 More Operators:
@@ -234,28 +181,28 @@ More Operators:
 *   However, there are instances where you want to rely on the result of a division being an integer, irrespective of the numbers involved.
 
 *   This is called the **integer division** or **floor division** operator and in Python it is used with a double slash `//`, as seen in this example:
-    
+    ```python
         print(13 // 4)
-    
+    ```
     *   which outputs `3`
 
 *   Note that in integer division, the result is always rounded down to the nearest integer
 
 *   However, if we divide thirteen people into three groups of four, there will be one person left over. The **modulo operator** `%` computes the **remainder** of an integer division. Here is an example of using modulo to calculate remainders:
-    
+    ```python
         # Using the modulus operator
         print(13 % 4)
-    
+    ```
     *   Outputs `1`
 
 *   Finally, to raise things to powers in Python (e.g. 47), we use the **exponentiation operator** `**`
 
 *   Following the order of operations, exponentiation operations are performed _before_ any addition or subtraction operations.
     *   Also note how the exponentiation operator is generally used with no whitespace between the two numbers it applies to, unlike all other arithmetic operators:
-
+```python
     print(2**2)
     print(3**2)
-
+```
 ### Type Conversions and Operator Summary:
 
 *   **Type casting** is the process of converting a value from one data type to another.
@@ -271,5 +218,3 @@ Some new arithmetic operators were introduced:
 *   The `%` **modulo** operator returns the remainder when the first operand is divided by the second.
 
 *   The `*` **exponentiation** operator returns the value of the first operand raised to the power of the second.
-
-After this worksheet, you should now feel comfortable using the three basic data types which we have introduced: `int`, `float` and `str`. Proceed to the next worksheet to use types in a range of different contexts.
