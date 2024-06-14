@@ -49,7 +49,7 @@ Introduction to Recursion
 
 *   This function processes a list by dealing with the first item, then making a recursive call to handle the rest of the list. You can see this in how at each stage, a number is extracted and the rest of the list is passed down to the next stage.
     
-    [![](Worksheet%2018%20Recursion%20c516a1b0ec4942c78166750d12372793/Untitled.png)](Worksheet%2018%20Recursion%20c516a1b0ec4942c78166750d12372793/Untitled.png)
+    [![]((https://file.notion.so/f/f/2a465c33-90bb-4d3f-af43-a6c939ce00ae/870a227a-a30a-4be7-853a-9c83c96dd1d1/Untitled.png?id=cc7dd8fc-7ba5-483e-9b01-db11a0676844&table=block&spaceId=2a465c33-90bb-4d3f-af43-a6c939ce00ae&expirationTimestamp=1718496000000&signature=FQWWbU5TXvRXFnIYKykEkv4I0wOEouVhYuf-e_-u7P8&downloadName=Untitled.png))
     
 
 *   A recursive function with two recursive calls is like a tree (yes, again this is the technical term). Each function call recurses on the left half of the tree and then on the right half of the tree. If there's only one element, it will process that element. You can see the order of this below.
