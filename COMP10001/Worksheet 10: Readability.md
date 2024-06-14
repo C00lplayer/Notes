@@ -1,19 +1,9 @@
 Worksheet 10: Readability
 =========================
 
-Date
+**Date:** March 13, 2024
 
-@March 27, 2024
-
-Finished?
-
-Subject
-
-[![](https://www.notion.so/icons/bookmark_red.svg)COMP10001](https://www.notion.so/COMP10001-9b459138d39749a4926cfa6e4e260d8d?pvs=21)
-
-Type of Class
-
-Assignment/Worksheet
+**Subject:** COMP10001
 
 Commenting:
 -----------
