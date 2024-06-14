@@ -1,29 +1,15 @@
 Worksheet 8: Iteration
 ======================
 
-Date
+**Date:** March 13, 2024
 
-@March 18, 2024
-
-Finished?
-
-Subject
-
-[![](https://www.notion.so/icons/bookmark_red.svg)COMP10001](https://www.notion.so/COMP10001-9b459138d39749a4926cfa6e4e260d8d?pvs=21)
-
-Type of Class
-
-Assignment/Worksheet
-
-Week
-
-Week 3
+**Subject:** COMP10001
 
 While Loops:
 ------------
 
 *   Here is the code that provides the same output as before, based on the `while` statement.
-    
+    ```python
         sec = 10
         
         while sec > 0:
@@ -33,7 +19,7 @@ While Loops:
             sec = sec - 1
         
         print('Ignition complete. Launch initiated!')
-    
+    ```
 
 *   Similar to the `if` statement, the `while` statement tests whether a condition — in our case `sec > 0` — evaluates to `True`.
     *   In the instance it evaluates to `True`, it executes the block of code associated with the `while` statement (again, akin to an `if` statement).
@@ -49,10 +35,10 @@ While Loops:
     *   an explicit means of short-circuiting the loop within the block of code, and a guarantee that this will eventually happen
 
 *   The general form of the while statement is the following:
-
+```python
     while <condition>:
         <block of statements>
-
+```
 *   When iterating, it is very common to need to assign values to variables which depend on the previous value of the variable. A particularly common one:
     *   `i = i + 1`
 
@@ -62,37 +48,15 @@ While Loops:
 *   There are many more, as indicated below:
     *   You might be able to notice a pattern: any operator plus the equals sign is the operator.
 
-**Operator**
-
-**Description**
-
-`*=`
-
-`c *= 2` is the same as `c = c * 2`
-
-`/=`
-
-`c /= 2` is the same as `c = c / 2`
-
-`+=`
-
-`c += 2` is the same as `c = c + 2`
-
-`-=`
-
-`c -= 2` is the same as `c = c - 2`
-
-`//=`
-
-`c //= 2` is the same as `c = c // 2`
-
-`%=`
-
-`c %= 2` is the same as `c = c % 2`
-
-`**=`
-
-`c **= 2` is the same as `c = c**2`
+|**Operator**|**Description**|
+|------------|---------------|
+|`*=`|`c *= 2` is the same as `c = c * 2`|
+|`/=`|`c /= 2` is the same as `c = c / 2`|
+|`+=`|`c += 2` is the same as `c = c + 2`|
+|`-=`|`c -= 2` is the same as `c = c - 2`|
+|`//=`|`c //= 2` is the same as `c = c // 2`|
+|`%=`|`c %= 2` is the same as `c = c % 2`|
+|`**=`|`c **= 2` is the same as `c = c**2`|
 
 *   As hinted earlier, there is an alternative for exiting `while` loops: a `break` statement in the body of the loop, which terminates the iteration at the point it is executed
 
@@ -102,17 +66,18 @@ For Loops:
 ----------
 
 *   There is another way to iterate called a `for` loop. This may be thought of as analogous to the English expression _for each_. For example, the below code says: _for each element of the list, print that element_:
-    
+    ```python
         my_list = [1,2,3]
         
         for elem in my_list:
         
             print(elem)
-    
+    ```
+    ```
         1
         2
         3
-    
+    ```
 
 *   In general, a `for` loop iterates over all elements of a sequence:
     *   if a sequence has five elements, e.g., the `for` loop will iterate five times.
@@ -122,12 +87,11 @@ For Loops:
 *   This makes it safe from infinite loops (unless you modify the object you are iterating over in the body of the `for` loop)
 
 *   The general form of the `for` statement is the following:
-    
+    ```python
         for <loop variable> in <iterable>:
         
             <block of statements>
-    
-
+    ```
 *   What is an **iterable**? Simply a thing which can be iterated through.
 
 *   The **loop variable** is the variable we define which takes the value of each item in the iterable in turn.
@@ -163,11 +127,11 @@ We have introduced the concept of **iteration** and seen the two types of loop
 *   The `+=` operator is a shortcut to incrementing a value. `operand1 += operand2` is equivalent to `operand1 = operand1 + operand2`. [Recall](https://media.giphy.com/media/3gNoskWiAwLKbfcCpE/giphy.gif) that `=` can also be added to the , , `/`, `//`, `%` and `*` operators in the same way.
 
 The structure of a `while` loop:
-
+```python
     while <condition>:
     
         <block of code>
-
+```
 `while` loops have the risk that they may not terminate if the condition never evaluates to `False`. To avoid this, there must be either:
 
 *   Some statement in the block of code while modifies an object in the condition such as to bring the condition closer to being `False` at each loop iteration; or
@@ -175,11 +139,11 @@ The structure of a `while` loop:
 *   The use of a `break` statement inside the loop body, which terminates the loop when it is reached. Care must be given to ensure that this `break` statement is reached eventually.
 
 The structure of a `for` loop:
-
+```python
     for <loop variable> in <iterable>:
     
         <block of code>
-
+```
 *   The loop variable can be named anything the programmer wishes, following the same rules as regular variable names.
 
 *   Iterables are objects which may be iterated over; the only iterables we have seen so far are sequences (and the `range()` function's output).
@@ -187,6 +151,7 @@ The structure of a `for` loop:
 *   `for` loops are safe from infinite loops, since the amount of iterations is predetermined by the number of elements in the sequence being iterated through.
 
 *   The `range()` function is especially useful in `for` loops, either for iterating over indices or just iterating a specific amount of times. It takes a start number, end number and optional step number in a similar fashion to slicing, and generates an iterable object with a series of numbers from start to end, counting each step.
+
 
 ### Loop Conversion Summary:
 
@@ -201,7 +166,7 @@ We have looked at the differences between `for` and `while` loops, and how w
     3.  Termination of the loop.
 
 *   When converting between `for` and `while` loops, it's important to capture these three things so that you can write them into the loop. These are considered for the two equivalent loops below:
-    
+    ```python
         count = 0
         
         for i in range(5):
@@ -209,7 +174,8 @@ We have looked at the differences between `for` and `while` loops, and how w
             count += i
         
         print(count)
-    
+    ```
+    ```python
         count = 0
         
         i = 0
@@ -221,31 +187,13 @@ We have looked at the differences between `for` and `while` loops, and how w
             i += 1
         
         print(count)
-    
+    ```
 
-**Element**
-
-`**for**` **loop**
-
-`**while**` **loop**
-
-Loop variable initialisation
-
-`i` is specified as the loop variable. `range(5)` begins with `0` so the first value of `i` will be `0`.
-
-The line `i = 0` initialises the loop variable.
-
-Loop variable update
-
-`range(5)` counts every item in sequence. No alternate `step` value was given, so `i` is incremented by `1` each loop.
-
-The line `i += 1` increments the loop variable at each iteration.
-
-Loop termination
-
-The last item in `range(5)` is `4` so the last iteration will be when `i` has the value `4`.
-
-The condition `i < 5` indicates that the loop will not continue when `i` becomes `5`.
+|**Element**| `**for**` **loop**|`**while**` **loop**|
+|-----------|-------------------|--------------------|
+|Loop variable initialisation|`i` is specified as the loop variable. `range(5)` begins with `0` so the first value of `i` will be `0`.|The line `i = 0` initialises the loop variable.
+|Loop variable update|`range(5)` counts every item in sequence. No alternate `step` value was given, so `i` is incremented by `1` each loop.|The line `i += 1` increments the loop variable at each iteration.|
+|Loop termination|The last item in `range(5)` is `4` so the last iteration will be when `i` has the value `4`.|The condition `i < 5` indicates that the loop will not continue when `i` becomes `5`.|
 
 *   A key difference between our two types of loops is that while in a `while` loop you must write all three steps explicitly, the `for` structure handles them automatically based on the value of the sequence being iterated through.
 
