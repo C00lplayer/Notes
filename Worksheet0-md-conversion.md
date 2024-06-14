@@ -1,9 +1,7 @@
 Worksheet 0: Building Blocks
 ============================
 
-Date
-
-@March 3, 2024
+Date: @March 3, 2024
 
 Finished?
 
