@@ -1,7 +1,7 @@
 Worksheet 4: Sequences
 ======================
 
-**Date:** March 3, 2024
+**Date:** March 12, 2024
 
 **Subject:** COMP10001
 
