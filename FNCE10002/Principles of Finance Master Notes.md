@@ -1085,7 +1085,7 @@ expected returns of its component securities
 - Doing this increases the expected returns, but also increases standard deviation of returns
 - The graph below shows the relation between expected returns and the standard deviation of returns for different weighting on each investment:
     
-    ![image.png](image%2019.png)
+    ![image.png](Images/image_19.png)
     
 
 ### Impact of Short Selling
@@ -1098,7 +1098,7 @@ expected returns of its component securities
 - If you borrow at a rate below the rate you expect to gain, you increase expected return
 - The graph below shows the relation between expected returns and the standard deviation of returns for different weighting on each investment:
     
-    ![image.png](image%2020.png)
+    ![image.png](Images/image_20.png)
     
 
 ## Analyze the limitations to the benefits of risk diversification
@@ -1116,11 +1116,11 @@ expected returns of its component securities
             
         - For a 2 asset portfolio:
             
-            ![image.png](image%2021.png)
+            ![image.png](Images/image_21.png)
             
         - For a 4 asset portfolio:
             
-            ![image.png](image%2022.png)
+            ![image.png](Images/image_22.png)
             
         - This creates this general formula:
             
@@ -1141,7 +1141,7 @@ expected returns of its component securities
 - So, In large portfolios, **return covariances determine portfolio risk**
 - As a portfolio becomes large in size its total risk (standard deviation) falls, but at a declining rate, this limiting value of risk is what’s called systematic risk, and the one that disappears with diversification is called unsystematic risk:
 
-![image.png](image%2023.png)
+![image.png](Images/image_23.png)
 
 ## Explain the relation between systematic risk and expected return using the CAPM
 
@@ -1171,9 +1171,9 @@ expected returns of its component securities
 - This will create a tangent line through point M on F’F
     - This line is called the **Capital Market Line**
 
-![image.png](image%2024.png)
+![image.png](Images/image_24.png)
 
-![image.png](image%2025.png)
+![image.png](Images/image_25.png)
 
 - In equilibrium, portfolio M consists of all risky securities/asset in existence
     - This is also called the market portfolio M
@@ -1227,7 +1227,7 @@ Type T firms’ returns move by +8% on average when the economy is strong and +4
 Type I firms’ returns do not move with the market.
 What are their betas?
     
-    ![image.png](image%2026.png)
+    ![image.png](Images/image_26.png)
     
 - So you can find the implied beta by:
     
@@ -1238,7 +1238,7 @@ What are their betas?
 - A big thing to note is that beta is not the same as the return correlation between a
 security (portfolio) and the market portfolio!
     
-    ![image.png](image%2027.png)
+    ![image.png](Images/image_27.png)
     
 - The diagram of the CAPM is the SML but with beta on the x-axis
     - NOTE: The diagram of SML has expected returns vs. risk as standard deviation, while CAPM has expected returns vs beta
@@ -1251,22 +1251,22 @@ security (portfolio) and the market portfolio!
     Security C: $β_C$ = –0.5
     Will an investor ever invest in a security like security C? Explain
         
-        ![image.png](image%2028.png)
+        ![image.png](Images/image_28.png)
         
         - As the expected return of security is well below the risk free asset, an investor is very unlikely to invest in this security unless they are short the market
         
-        ![image.png](image%2029.png)
+        ![image.png](Images/image_29.png)
         
     - An online broker’s estimate of Computershare’s (ASX: CPU) beta is 0.7. Using a risk-free return of 4% and an expected market risk premium of 7% p.a. what is CPU’s  required rate of return?
         
-        ![image.png](image%2030.png)
+        ![image.png](Images/image_30.png)
         
     - What would you expect to happen to the security market line, required returns and security prices if the following events occurred one after the other:
     Event 1: There is an unexpected increase in the market risk premium as a result of skepticism related to the Commonwealth government’s fiscal stimuli
     Event 2: The Reserve Bank lowers the cash rate, a move also not expected by the market
     Event 3: A few months later, as the economy and financial markets recover, the Reserve Bank raises the cash rate by 0.5%, a move widely expected by the market
         
-        ![image.png](image%2031.png)
+        ![image.png](Images/image_31.png)
         
 
 ## **Estimating expected return using the CAPM**
@@ -1314,13 +1314,13 @@ security (portfolio) and the market portfolio!
     Asjeet used Sonic’s estimated beta of 0.7, a risk-free rate of 4% and an expected market risk premium of 7% to estimate the required return on its shares.
     At that time, the consensus estimate of Sonic’s dividend next year was $0.85 which was expected to grow at 5.5% p.a. for the foreseeable future
         
-        ![image.png](image%2032.png)
+        ![image.png](Images/image_32.png)
         
-        ![image.png](image%2033.png)
+        ![image.png](Images/image_33.png)
         
-        ![image.png](image%2034.png)
+        ![image.png](Images/image_34.png)
         
-        ![image.png](image%2035.png)
+        ![image.png](Images/image_35.png)
         
 
 # Topic 7: Capital Budgeting I
@@ -1362,9 +1362,9 @@ security (portfolio) and the market portfolio!
     Evaluate the project using the net present value method assuming that the project’s required rate of return is 12% p.a.
     How does your decision change if the initial investment were $1,300,000 and not $1,000,000?
         
-        ![image.png](image%2036.png)
+        ![image.png](Images/image_36.png)
         
-        ![image.png](image%2037.png)
+        ![image.png](Images/image_37.png)
         
 - Note that as you increase the required rate of return (discount rate) you decrease the NPV of an investment as you discount it by a bigger amount
 - The NPV also indicates an affect on the firm’s share price:
@@ -1410,7 +1410,7 @@ the other(s)
         - Example:
             - Assume you have just retired as the CEO of a successful company. A major publisher has offered you a book deal. The publisher will pay you $1 million upfront if you agree to write a book about your experiences. You estimate that it will take three years to write the book. The time you spend writing will cause you to give up speaking engagements amounting to $500,000 per year. What is the book deal’s internal rate of return? If your required rate of return is 10% p.a. should you accept the book deal? How does your decision change if your required rate of return is 28% p.a.?
                 
-                ![image.png](image%2038.png)
+                ![image.png](Images/image_38.png)
                 
                 - The NPV is negative, so you shouldn’t accept the book deal but looking at IRR it shows that you should take the deal
                 - This is because you are receiving cash flows before cash outflows so it creates a reverse relationship to the traditional IRR
@@ -1424,14 +1424,14 @@ the other(s)
     - **Multiple IRR**
         - When finding IRR you are solving a polynomial so that may mean you get multiple values for the NPV up to the degree of its power (number of years in the future the cash flow occurs)
             
-            ![image.png](image%2039.png)
+            ![image.png](Images/image_39.png)
             
 
 ## Comparing NPV and IRR - Incremental IRR
 
 - When ranking mutually exclusive investments we sometimes get differing results from NPV and IRR:
     
-    ![image.png](image%2040.png)
+    ![image.png](Images/image_40.png)
     
     - Looking at the figures you should undertake project Y as even though you need a greater initial investment you generate a greater return nearly double of project X, so while IRR doesn’t account for scale it sometimes is a bad thing as sometimes the scale of the investment generates a bigger return over the rate of return
 - When comparing NPV to IRR, NPV is sensitive to the required rate of return so it depends on what you choose as the required rate of return which may affect the NPV value while the IRR is unaffected of your choice of the required rate of return
@@ -1462,7 +1462,7 @@ the other(s)
     - For mutually exclusive projects, the project with the shortest payback period is preferred (assuming they all meet the maximum payback period threshold)
 - Example:
     
-    ![image.png](image%2041.png)
+    ![image.png](Images/image_41.png)
     
     - A firm is considering three mutually exclusive projects that require an initial outlay of $100,000 and that generate the following pattern of cash flows. The firm typically accepts projects with a payback period less than 2 years
         - Note: Payback period for project E = 2+(20/30)=2.67 years
@@ -1567,7 +1567,7 @@ the other(s)
         
 - So over the life of the project:
     
-    ![image.png](image%2042.png)
+    ![image.png](Images/image_42.png)
     
 
 ### Terminal Values
@@ -1577,12 +1577,12 @@ the other(s)
 - For example:
     - Assume that Microsoft had projected the following cash flows associated with its LinkedIn acquisition in 2016
         
-        ![image.png](image%2043.png)
+        ![image.png](Images/image_43.png)
         
     - Assume also that from end of year 5 onwards Microsoft expected the cash flows to grow at a rate of 2% p.a. forever and that it used a discount rate of 12% to value this acquisition.
     - What was LinkedIn’s estimated value to Microsoft?
         
-        ![image.png](image%2044.png)
+        ![image.png](Images/image_44.png)
         
 
 ## Inflation and capital budgeting
@@ -1686,7 +1686,7 @@ the other(s)
         - IT IS NOT DEFAULT RISK
 - The effects are shown below:
     
-    ![image.png](image%2045.png)
+    ![image.png](Images/image_45.png)
     
 - Financial risk exists if debt is taken on which is also called financial leverage
 - There are two ways to measure financial leverage:
@@ -1704,7 +1704,7 @@ the other(s)
 - This suggests that managers believe that there is an optimal capital structure which maximizes the firm value
 - The preference of source of capital and its rank is shown below:
     
-    ![image.png](image%2046.png)
+    ![image.png](Images/image_46.png)
     
 
 ## The impact of financial leverage on firm value: Theoretical insights
@@ -1717,9 +1717,9 @@ the other(s)
     - We also assume perpetual cash flows (earnings) to simplify the analysis
 - When replacing debt with equity we have:
     
-    ![image.png](image%2047.png)
+    ![image.png](Images/image_47.png)
     
-    ![image.png](image%2048.png)
+    ![image.png](Images/image_48.png)
     
 - The overall effects of borrowing funds and taking on financial leverage are...
     - Adding financial risk on top of business risk via increased variability in both EPS and ROE
@@ -1766,7 +1766,7 @@ the other(s)
     - Pay out
     - Retain it
     
-    ![image.png](image%2049.png)
+    ![image.png](Images/image_49.png)
     
     - There is a dotted line for investing in new projects because by definition free cash flow is the cash flow left after investing in all positive NPV projects so the projects being invested in is negative NPV, the reason for this is to build an empire and is associated with the agency costs of the management to make the company bigger
 - There are two ways to distribute cash:
@@ -1799,11 +1799,11 @@ the other(s)
 - Note that when dividends are announced earnings are also announced, so while dividends may have increased earnings may not have been as strong leading to a decrease in price
 - For example, CBA is giving out dividends of $2.40 according to this schedule:
     
-    ![image.png](image%2050.png)
+    ![image.png](Images/image_50.png)
     
     - The price movement of CBA over this period can be seen below:
         
-        ![image.png](image%2051.png)
+        ![image.png](Images/image_51.png)
         
         - The difference between the first two red dots is due to the dividend announcement so it perceives it as positive and “higher then expected”
         - Then it falls between the thirds and fourth dot by $3.72 but it is greater than the dividend of $2.40, this is because the dividend is worth more than the $2.40 due to the tax implications which means the actual value of the dividend is $3.72
@@ -1828,7 +1828,7 @@ the other(s)
 - As can be seen above a lot of the policies aim to keep a somewhat similar amount of dividends, as the volatility/change in dividends are an illustrated a high level of risk to shareholders
 - Looking at the graph below:
     
-    ![image.png](image%2052.png)
+    ![image.png](Images/image_52.png)
     
     - Dividends are much smoother
     - This shows that there are two types of earning:
@@ -1842,7 +1842,7 @@ the other(s)
 
 - From 1987 the payout ration increased for Australia compared to US, due to the tax system:
     
-    ![image.png](image%2053.png)
+    ![image.png](Images/image_53.png)
     
 - Under the imputation tax system, there are two important features:
     - Resident taxpayers pay tax on the pre-corporate tax income that gave rise to the dividend, rather than the dividend itself
@@ -1869,27 +1869,27 @@ the other(s)
         
 - To illustrate the imputation tax system lets look at both systems for the following example:
     
-    ![image.png](image%2054.png)
+    ![image.png](Images/image_54.png)
     
     - Classical Tax
         - Using clasical tax system each person recieves the following:
             
-            ![image.png](image%2055.png)
+            ![image.png](Images/image_55.png)
             
         - The net effect of a classical tax system is that earnings are **double-taxed** at both the corporate and personal levels:
             - As $After-tax \space dividends = Earnings \space (on \space a \space per \space share \space basis) \times(1-t_c)\times(1-t_p)$
                 
-                ![image.png](image%2056.png)
+                ![image.png](Images/image_56.png)
                 
     - Imputation Tax System
         - Now both receive:
             
-            ![image.png](image%2057.png)
+            ![image.png](Images/image_57.png)
             
         - The net effect of an imputation tax system is that earnings paid out as dividends are taxed only once at the shareholder’s marginal rate:
             - As $After-tax \space dividends = Earnings \space (on \space a \space per \space share \space basis) \times(1-t_p)$
                 
-                ![image.png](image%2058.png)
+                ![image.png](Images/image_58.png)
                 
 - The franking credit is only applied to resident tax payers
 - The things to note is that corporate tax still matters as:
@@ -1945,37 +1945,37 @@ the other(s)
 
 - To illustrate how payout policy doesn’t affects firm value, so the wealth of a shareholder is unaffected by the payout policy, we will use an example:
     
-    ![image.png](image%2059.png)
+    ![image.png](Images/image59.png)
     
     - The firms total market value:
         
-        ![image.png](image%2060.png)
+        ![image.png](Images/image_60.png)
         
     - Policy 1: Pay dividends with excess cash:
         - The firm’s cum-dividend price is the price including the current period’s dividend, that is:
             
-            ![image.png](image%2061.png)
+            ![image.png](Images/image_61.png)
             
         - After the ex-dividend date, the new shareholders will not receive the current dividend so the firm’s share price will fall to:
             
-            ![image.png](image%2062.png)
+            ![image.png](Images/image_62.png)
             
         - So the original shareholders receive $2.00 dividend, and their shares are now worth $40.00 so their wealth **does not change**
     - Policy 2: Repurchase shares and pay no dividend:
         
-        ![image.png](image%2063.png)
+        ![image.png](Images/image_63.png)
         
-        ![image.png](image%2064.png)
+        ![image.png](Images/image_64.png)
         
     - Policy 3: Pay a higher dividend and issue new equity:
         
-        ![image.png](image%2065.png)
+        ![image.png](Images/image_65.png)
         
-        ![image.png](image%2066.png)
+        ![image.png](Images/image_66.png)
         
 - So overall:
     
-    ![image.png](image%2067.png)
+    ![image.png](Images/image_67.png)
     
 
 # Topic 11: An Introduction to Options
@@ -2020,7 +2020,7 @@ the other(s)
     - You can sell the right to sell
 - Market convention uses Long and Short to distinguish:
     
-    ![image.png](image%2068.png)
+    ![image.png](Images/image_68.png)
     
 - Call Example:
     - It is 1/1/2024
@@ -2029,11 +2029,11 @@ the other(s)
     - She does this by buying a call option with an exercise price of $9
     - The payoff diagram for this call:
         
-        ![image.png](image%2069.png)
+        ![image.png](Images/image_69.png)
         
     - So this causes the price paid for corn to be the following, as the call option caps the price paid
         
-        ![image.png](image%2070.png)
+        ![image.png](Images/image_70.png)
         
 - Put Example:
     - Frank is a corn farmer who is also exposed to the price of corn on March 31
@@ -2041,11 +2041,11 @@ the other(s)
     - He does this by buying a put option with an exercise price of $5
         - The payoff diagram for this put:
             
-            ![image.png](image%2071.png)
+            ![image.png](Images/image_71.png)
             
         - So this causes the price Frank will receive  for corn to be the following, as the put option puts a lower bound on the price received
             
-            ![image.png](image%2072.png)
+            ![image.png](Images/image_72.png)
             
 
 ## Option profits versus payoffs
@@ -2060,11 +2060,11 @@ the other(s)
 - So below are examples of profit diagrams for call and puts:
     - If you pay $0.5 for the call option with a $9 strike price:
         
-        ![image.png](image%2073.png)
+        ![image.png](Images/image_73.png)
         
     - If you pay $0.3 for the put option with a $9 strike price:
         
-        ![image.png](image%2074.png)
+        ![image.png](Images/image_74.png)
         
 - Note that for a long call or put option the person will sell their option at expiry whenever the spot price goes above or below the strike price respectively, this is because even though they may lose money due to the profit made being less than the premium paid it is at least less loss than not undertaking the contract
 
@@ -2088,11 +2088,11 @@ the other(s)
     
 - So this means that for different prices of the spot we have different intrinsic value:
     
-    ![image.png](image%2075.png)
+    ![image.png](Images/image_75.png)
     
 - An option’s “moneyness” refers to the value of the asset relative to the exercise price:
     
-    ![image.png](image%2076.png)
+    ![image.png](Images/image_76.png)
     
 - So we have three types of value associated with an option:
     - Total value:
@@ -2107,7 +2107,7 @@ the other(s)
         - It is basically value of the uncertainty is may go from OTM to ITM or even deeper ITM
 - So graphing it out for a long call option we get:
     
-    ![image.png](image%2077.png)
+    ![image.png](Images/image_77.png)
     
     - Time value is max when the option is ATM, as there is more uncertainty in the movement of the spot
     - The time value decreases as you go more deep ITM or OTM as there is less uncertainty in where/how the underlying will move
@@ -2118,7 +2118,7 @@ the other(s)
         - Can be exercised at any time up to and including expiry
 - So we can concluded:
     
-    ![image.png](image%2078.png)
+    ![image.png](Images/image_78.png)
     
 - Provided there is some state of the world where it might be optimal to exercise an American style option early, it will be worth more than the European counterpart
 - So you don’t exercise an American call early for any reason as you could rather sell the option to also profit from the time value rather than just the intrinsic value from exercising the option
@@ -2171,7 +2171,7 @@ the other(s)
         - The chance of more extreme outcomes are higher
         - You benefit from an advantageous price movement than suffer from an adverse movement
         
-        ![image.png](image%2079.png)
+        ![image.png](Images/image_79.png)
         
 - Term to expiry of the option:
     - Call Options: Positive Relationship
@@ -2180,10 +2180,8 @@ the other(s)
         - While this means that the option may become even more OTM it doesn’t matter as your downside is capped as 0 plus there still is a chance it will become ITM
     - So basically it is the asymmetric nature of the payoff of the options that lead to this argument
     
-    ![image.png](image%2080.png)
+    ![image.png](Images/image_80.png)
     
 - So overall:
     
-    ![image.png](image%2081.png)
-    
-    -
+    ![image.png](Images/image_81.png)
