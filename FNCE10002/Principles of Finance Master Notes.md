@@ -219,7 +219,7 @@
     r_e = \left(1 + \frac{r}{m}\right)^m - 1 = \left(1 + \frac{0.06}{365}\right)^{365} - 1 = 0.061831 = 6.1831\% \text{ p.a.}
     $$
     
-    ![Untitled](Images/Untitled 1.png)
+    ![Untitled](Images/Untitled_1.png)
     
 - Relationships in the formula:
     - Holding interest rates constant, as the number of periods, \(n\), increases:
@@ -300,7 +300,7 @@
 
 - Just like an ordinary annuity except the cash flows grow at a constant rate of g per period (where r > g)
     
-    ![Untitled](Untitled%202.png)
+    ![Untitled](Images/Untitled_2.png)
     
 - The formula for the present value is:
     
@@ -363,31 +363,31 @@
 - Ex: You borrow $600,000 for your first apartment. The term of the loan is 20 years and the interest rate quoted by your bank is 4.8% p.a. compounding monthly with monthly payments required
     - What is the regular monthly payment required?
         
-        ![Untitled](Untitled%203.png)
+        ![Untitled](Images/Untitled_3.png)
         
     - How much do you still owe after 5 years?
         - After 5 years there are still 15 years worth of payments left
         
-        ![Untitled](Untitled%204.png)
+        ![Untitled](Images/Untitled_4.png)
         
     - How much interest have you paid in that five years?
         - All of your payments go either towards principal repayment or interest payment
             
-            ![Untitled](Untitled%205.png)
+            ![Untitled](Images/Untitled_5.png)
             
     - If, after 5 years, interest rates increase to 6% p.a. compounding monthly, what will be your new monthly payment required?
         
-        ![Untitled](Untitled%206.png)
+        ![Untitled](Images/Untitled_6.png)
         
     - Interest rates have increased (to 6% p.a. compounding monthly), what if you keep your loan payment constant but increase the term?
         
-        ![Untitled](Untitled%207.png)
+        ![Untitled](Images/Untitled_7.png)
         
-        ![Untitled](Untitled%208.png)
+        ![Untitled](Images/Untitled_8.png)
         
-        ![Untitled](Untitled%209.png)
+        ![Untitled](Images/Untitled_9.png)
         
-        ![Untitled](Untitled%2010.png)
+        ![Untitled](Images/Untitled_10.png)
         
 
 ## Debt Securities:
@@ -442,11 +442,11 @@ After holding the note for 3 weeks (21 days), Unisuper decided to sell the note 
         - The holder of the note (the lender) will be paid $10,000,000 on the maturity date.
         - The price of the note is its present value, calculated using a simple interest rate of 7.650% p.a:
             
-            ![Untitled](Untitled%2011.png)
+            ![Untitled](Images/Untitled_11.png)
             
     2. How much will the Commonwealth Bank pay Unisuper?
         
-        ![Untitled](Untitled%2012.png)
+        ![Untitled](Images/Untitled_12.png)
         
 
 ### Promissory notes and Bills of exchange
@@ -520,11 +520,11 @@ After holding the note for 3 weeks (21 days), Unisuper decided to sell the note 
 - A key driver of a bond’s yield is the risk associated with the promised cash flows
 - Ratings agencies assess this risk and allocate the bond a rating
     
-    ![Untitled](Untitled%2013.png)
+    ![Untitled](Images/Untitled_13.png)
     
 - The greater the perceived risk of a bond the higher the yield relative to other less risky bonds
     
-    ![Untitled](Untitled%2014.png)
+    ![Untitled](Images/Untitled_14.png)
     
 - Yields can change because a rating can change BUT ultimately yields just reflect the impact of demand and supply on bond prices
 - One of the drivers of yields is the risk-free rate of return (Gov’t bond rate). When we look at yield spreads we’re deducting the impact of changes in the risk-free rate
@@ -537,7 +537,7 @@ After holding the note for 3 weeks (21 days), Unisuper decided to sell the note 
     - Promise of coupon payments plus the repayment of the face value at maturity
 - They differ from ordinary bonds in terms of the use of the funds raised
     
-    ![Untitled](Untitled%2015.png)
+    ![Untitled](Images/Untitled_15.png)
     
 - 
 
@@ -639,9 +639,9 @@ valuations of listed firms
     The required rate of return ($k_e$) is 14% pa.
     Calculate the share price
         
-        ![image.png](image.png)
+        ![image.png](Images/image.png)
         
-        ![image.png](image%201.png)
+        ![image.png](Images/image_1.png)
         
         - Note that the constant dividend is only discounted by 2 years, this is due to the dividend model valuing the share a year before the first dividend payment
 
@@ -681,7 +681,7 @@ valuations of listed firms
     Estimate the firm’s current price, its P/E ratio (using expected earnings) and the (present) value that can be attached to its future growth opportunities
         1. The firm’s current price of a share
             
-            ![image.png](image%202.png)
+            ![image.png](Images/image_2.png)
             
         2. P/E ratio
             
@@ -691,7 +691,7 @@ valuations of listed firms
             
         3. Present value that can be attached to its future growth opportunities (PVGO)
             
-            ![image.png](image%203.png)
+            ![image.png](Images/image_3.png)
             
 - As we have defined PE ratio as $\frac{𝑃𝑟𝑖𝑐𝑒 \space 𝑝𝑒𝑟 \space 𝑠ℎ𝑎𝑟𝑒}{𝐸𝑎𝑟𝑛𝑖𝑛𝑔𝑠 \space 𝑝𝑒𝑟 \space 𝑠ℎ𝑎𝑟𝑒} = \frac{P}{E}$ we can say:
     
@@ -729,7 +729,7 @@ valuations of listed firms
     - An infinite life (like equity)
 - Comparing the features of a traditional preference share to equity and debt:
     
-    ![image.png](image%204.png)
+    ![image.png](Images/image_4.png)
     
 - Pricing preference shares are easy as the preference share promises to pay an infinite stream of a fixed amount each year, so it is a perpetuity:
     
@@ -747,7 +747,7 @@ valuations of listed firms
     The required rate of return is 12.5% pa.
     What is the price?
         
-        ![image.png](image%205.png)
+        ![image.png](Images/image_5.png)
         
 
 ## Prices, information and market efficiency
@@ -815,29 +815,29 @@ valuations of listed firms
 - For example:
     - You invest $10000 in a security which gives you $15000 at the end of year 1, and $7500 at the end of year two:
         
-        ![image.png](image%206.png)
+        ![image.png](Images/image_6.png)
         
         - The following give different return figures
             
-            ![image.png](image%207.png)
+            ![image.png](Images/image_7.png)
             
         - In this example, the arithmetic average return is:
             
-            ![image.png](image%208.png)
+            ![image.png](Images/image_8.png)
             
         - And the geometric return is:
             
-            ![image.png](image%209.png)
+            ![image.png](Images/image_9.png)
             
         - Also note that changing the geometric return to an effective rate over the life of the investment gives the total return
             
-            ![image.png](image%2010.png)
+            ![image.png](Images/image_10.png)
             
     - For the following investments compare the arithmetic and geometric average rates of returns. What is the general relationship between these averages?
         
-        ![image.png](image%2011.png)
+        ![image.png](Images/image_11.png)
         
-        ![image.png](image%2012.png)
+        ![image.png](Images/image_12.png)
         
 - The difference between the arithmetic and geometric average change as volatility changes
     - These differences decline as the volatility (or variability) of returns decline
@@ -878,7 +878,7 @@ valuations of listed firms
 - To do this assume investors can predict certain possible outcomes ($C_1,C_2,... C_n$) and associate probabilities to these outcomes ($p_1,p_2,...,p_n$) of which may occur in the future
 - And for each state we can convert cash flows into rates of return using the initial investment C:
     
-    ![image.png](image%2013.png)
+    ![image.png](Images/image_13.png)
     
     - Where: $p_1+p_2 +p_3 +...+p_n = 1$
 - From this the expected return considering all outcomes is the expected outcome measured as the weighted average of the individual outcomes:
@@ -898,11 +898,11 @@ valuations of listed firms
     
 - Example:
     
-    ![image.png](image%2014.png)
+    ![image.png](Images/image_14.png)
     
     - The current price of Stock X is $10 and market analysts forecast that the following three states could occur one year from now. What is the expected return and standard deviation of return for this investment?
         
-        ![image.png](image%2015.png)
+        ![image.png](Images/image_15.png)
         
 - In the above scenario we looked at a finite number of outcomes, a more general interpretation requires assuming returns are continuously and normally distributed
     - But it can cause problems as it implies an unlimited downside loss potential which is not possible
@@ -934,7 +934,7 @@ valuations of listed firms
     d) Security D
     e) Need more information
         
-        ![image.png](image%2016.png)
+        ![image.png](Images/image_16.png)
         
         - The answer to this question is E. Need more information
         - As being a risk-averse investor doesn’t mean you won’t take on risks, it just how much extra return you demand on each additional unit of risk, and because we aren’t given this we cannot choose between C and D
@@ -999,7 +999,7 @@ expected returns of its component securities
     return covariance
     - Note 2: $–1 ≤ ρ_{1,2} ≤ +1$
     
-    ![image.png](image%2017.png)
+    ![image.png](Images/image_17.png)
     
 - Thus instead of covariance we can use correlation coefficient to represent portfolio’s risk:
     
@@ -1072,7 +1072,7 @@ expected returns of its component securities
         
 - If we graph the expected return vs standard deviation for different values of $\rho_{1,2}$ we get the following:
     
-    ![image.png](image%2018.png)
+    ![image.png](Images/image_18.png)
     
 
 # Topic 6: Portfolio Theory and Asset Pricing II
